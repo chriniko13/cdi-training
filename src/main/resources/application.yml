@@ -1,0 +1,18 @@
+
+#################################################################
+
+greeting:
+  message: "chriniko"
+
+
+#################################################################
+
+quarkus:
+  vertx:
+    prefer-native-transport: true
+  console:
+    color: true
+  log:
+    console:
+      enable: true
+      level: DEBUG
